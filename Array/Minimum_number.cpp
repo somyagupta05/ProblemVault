@@ -1,33 +1,33 @@
-// #include<iostream>
-// using namespace std;
-// int  minnumber(int n,int arr[])
-// {
-//   int min=INT_MAX;
-//   for(int i=0;i<n;i++)
-//   {
-//     if(arr[i]<min)
-//     {
-//       min=arr[i];
-//     }
-//   }
-//   cout<<min;
-// }
-// int main()
-// {
+#include<iostream>
+using namespace std;
+int  minnumber(int n,int arr[])
+{
+  int min=INT_MAX;
+  for(int i=0;i<n;i++)
+  {
+    if(arr[i]<min)
+    {
+      min=arr[i];
+    }
+  }
+  cout<<min;
+}
+int main()
+{
 
-//   int n;
-//   cout<<"enter size";
-//   cin>>n;
-//   int arr[n];
-//   cout<<"enter elements";
-//   for(int i=0;i<n;i++)
-//   {
-//     cin>>arr[i];
-//   }
-//   minnumber(n,arr);
-// }
+  int n;
+  cout<<"enter size";
+  cin>>n;
+  int arr[n];
+  cout<<"enter elements";
+  for(int i=0;i<n;i++)
+  {
+    cin>>arr[i];
+  }
+  minnumber(n,arr);
+}
 
-
+// second method
 
 #include<iostream>
 using namespace std;
