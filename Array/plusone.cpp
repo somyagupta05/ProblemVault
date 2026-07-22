@@ -38,5 +38,5 @@ int main()
 
 // break 
 // pause
-// stil
-// 1234
+// still
+// 12345
